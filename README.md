@@ -112,3 +112,36 @@ Ao final, foi possível prever automaticamente o score de crédito de novos clie
 ---
 
 # ✅ Aula 4 - Python Dev: Criação de Sites e Sistemas com Python 
+
+Nesta aula, desenvolvi uma aplicação web de chat em tempo real chamada **Hashzap**, utilizando a biblioteca `flet`.  
+Com ela, conseguimos simular uma sala de bate-papo onde vários usuários interagem simultaneamente pela interface do navegador.
+
+---
+
+## 💡 Principais aprendizados
+
+- Utilização do `flet` para criação de interfaces web com Python
+- Estruturação de componentes interativos como:
+  - Botões (`ElevatedButton`)
+  - Campos de texto (`TextField`)
+  - Alertas e popups (`AlertDialog`)
+  - Containers e layouts (`Column`, `Row`)
+- Uso do `pagina.pubsub` para comunicação entre usuários em tempo real
+- Manipulação de eventos com `on_click` e `on_submit`
+
+---
+
+## 📁 Estrutura do projeto
+
+- `hashzap.py`: script principal da aplicação de chat
+- Interface web responsiva com execução via navegador
+- Comunicação assíncrona entre participantes usando sistema de pub/sub
+
+---
+
+## 🚀 Resultado
+
+A aplicação permite múltiplos usuários interagirem em tempo real, com:
+- Entrada no chat exibida para todos
+- Envio e recebimento de mensagens visíveis para todos os participantes
+- Interface amigável e funcional em navegador local (`localhost:8000`)
